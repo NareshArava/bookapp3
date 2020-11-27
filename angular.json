@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BookSpot"
+    }
+  },
+  "defaultProject": "BookSpot",
+  "cli": {
+    "analytics": "19b77e09-cbcf-4fb0-8611-2a355c3f6ef9"
+  }
 }
