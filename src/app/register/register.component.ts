@@ -27,6 +27,9 @@ export class RegisterComponent implements OnInit {
         Validators.required,
         Validators.minLength(6),
         Validators.maxLength(30)
+      ]],
+      'mobileNumber': [this.user.mobileNumber, [
+        Validators.required,
       ]]
     });
   }

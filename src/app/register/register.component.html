@@ -1,6 +1,6 @@
-<div class="medium-list">
+<div class="medium-list" style="margin-top: 5%; background-color: bisque;">
     <div class="list-viewer-wrapper">
-      <div class="list-header-title">Register</div>
+      <div class="list-header-title"><h2>Register</h2></div>
   
       <form [formGroup]="registerForm" (ngSubmit)="registerForm.valid && onRegisterSubmit()" novalidate>
         <div class="form-container">
@@ -19,6 +19,14 @@
                      [(ngModel)]="user.email"
                      placeholder="Enter your email" />
             </mat-form-field>
+
+            <mat-form-field>
+                <input id= "mobileNumber"
+                       matInput
+                       formControlName="mobileNumber"
+                       [(ngModel)]="user.mobileNumber"
+                       placeholder="Enter your MobileNumber" />
+              </mat-form-field>
   
           <mat-form-field>
               <input id="password"
