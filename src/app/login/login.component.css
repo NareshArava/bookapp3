@@ -1,0 +1,25 @@
+a:hover{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover .fa-facebook
+  {
+   
+    color: #3b5998;
+  }
+  a:hover .fa-twitter
+  {
+    color: #00acee;
+  }
+  a:hover .fa-youtube
+  {
+    color: #f00;
+  }
+  a:hover .fa-skype
+  {
+    color: #00acee;
+  }
+  a:hover .fa-linkedin
+  {
+    color: #0e76a8;
+  }

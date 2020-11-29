@@ -1,4 +1,4 @@
-<div class="medium-list" style="margin-top: 5%; background-color: bisque;">
+<div class="medium-list" style="margin-top: 0%; background-color: bisque;">
     <div class="list-viewer-wrapper">
       <div class="list-header-title"><h2>Register</h2></div>
   
@@ -11,7 +11,6 @@
                    [(ngModel)]="user.name"
                    placeholder="Enter your name" />
           </mat-form-field>
-  
           <mat-form-field>
               <input id="email"
                      matInput
@@ -19,15 +18,13 @@
                      [(ngModel)]="user.email"
                      placeholder="Enter your email" />
             </mat-form-field>
-
             <mat-form-field>
                 <input id= "mobileNumber"
                        matInput
                        formControlName="mobileNumber"
                        [(ngModel)]="user.mobileNumber"
                        placeholder="Enter your MobileNumber" />
-              </mat-form-field>
-  
+          </mat-form-field>
           <mat-form-field>
               <input id="password"
                      matInput
